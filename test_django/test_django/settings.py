@@ -46,6 +46,7 @@ INSTALLED_APPS = [
 
     # my app
     'catalog',
+    'potter',
 ]
 
 MIDDLEWARE = [
