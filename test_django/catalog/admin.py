@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Category, Goods, Tag
+from .models import Category, Goods, Tag, Parametr
 import admin_thumbnails
 
 class CategoryAdmin(admin.ModelAdmin):
@@ -16,6 +16,7 @@ class GoodsAdmin(admin.ModelAdmin):
 admin.site.register(Category, CategoryAdmin)
 admin.site.register(Goods, GoodsAdmin)
 admin.site.register(Tag)
+admin.site.register(Parametr)
 
 admin.site.site_header = "Ira Admin"
 admin.site.site_title = "Ira Admin Portal"
